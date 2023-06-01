@@ -1,0 +1,4 @@
+.idea
+
+back-end/wwwroot/*
+!back-end/wwwroot/.gitkeep

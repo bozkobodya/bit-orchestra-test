@@ -1,0 +1,62 @@
+.card {
+  border-color: transparent;
+
+  .label, .details {
+    display: none;
+  }
+
+  &:hover {
+    border-color: var(--bs-card-border-color);
+
+    .details {
+      display: block;
+      border-width: 0;
+      border-bottom: 1px solid #a89e95;
+      color: #dbd7d2;
+      font-size: 20px;
+      bottom: 10px;
+      left: 12px;
+    }
+
+    .label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      color: white;
+      font-size: 12px;
+      padding: 6px 8px;
+      background: #446671;
+    }
+  }
+}
+
+.image {
+  height: 320px;
+}
+
+.heart {
+  top: 4px;
+  right: 8px;
+}
+
+.available {
+  gap: 4px;
+  font-size: 12px;
+}
+
+.compare {
+  gap: 4px;
+  font-size: 12px;
+
+  .checkbox {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.radio {
+  height: 15px;
+  width: 15px;
+}
+

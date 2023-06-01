@@ -1,0 +1,34 @@
+.wrapper {
+  padding: 35px 0;
+  border-bottom: 1px solid #a1a4a6;
+}
+
+.date {
+  color: #a1a4a6;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.stars {
+  position: relative;
+  right: 5px;
+}
+
+.comment {
+  overflow-y: hidden;
+  margin-top: 12px;
+
+  &Closed {
+    max-height: 75px;
+  }
+
+  &Opened {
+    max-height: 9999px;
+  }
+}
+
+.readMore {
+  font-size: 14px;
+  margin-top: 6px;
+  padding: 0;
+}
